@@ -2,7 +2,7 @@
   "name": "validate-dart-package-name",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@8.15.7",
+  "packageManager": "pnpm@9.0.5",
   "description": "Check if a given string is a valid dart package name",
   "keywords": [
     "dart",
@@ -64,7 +64,7 @@
     "husky": "^9.0.11",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^6.1.2",
-    "pnpm": "^8.15.7",
+    "pnpm": "^9.0.5",
     "prettier": "3.2.5",
     "typescript": "^5.4.5",
     "unbuild": "^2.0.0",
