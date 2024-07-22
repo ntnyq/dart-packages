@@ -2,7 +2,7 @@
   "name": "validate-dart-package-name",
   "type": "module",
   "version": "0.1.0",
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@9.6.0",
   "description": "Check if a given string is a valid dart package name",
   "keywords": [
     "dart",
@@ -55,20 +55,20 @@
     "typecheck": "vitest --typecheck"
   },
   "devDependencies": {
-    "@ntnyq/eslint-config": "^2.6.0",
+    "@ntnyq/eslint-config": "^2.7.0",
     "@ntnyq/prettier-config": "^1.21.2",
-    "@types/node": "^20.14.10",
-    "@vitest/coverage-v8": "^2.0.2",
+    "@types/node": "^20.14.11",
+    "@vitest/coverage-v8": "^2.0.3",
     "bumpp": "^9.4.1",
     "eslint": "^9.7.0",
-    "husky": "^9.0.11",
+    "husky": "^9.1.1",
     "nano-staged": "^0.8.0",
     "npm-run-all2": "^6.2.2",
-    "pnpm": "^9.5.0",
+    "pnpm": "^9.6.0",
     "prettier": "3.3.3",
     "typescript": "^5.5.3",
     "unbuild": "^2.0.0",
-    "vitest": "^2.0.2"
+    "vitest": "^2.0.3"
   },
   "prettier": "@ntnyq/prettier-config",
   "nano-staged": {
