@@ -4,9 +4,6 @@
     "lib": ["DOM", "ESNext"],
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "paths": {
-      "validate-dart-package-name": ["./src/index.ts"]
-    },
     "types": ["node"],
     "esModuleInterop": true,
     "strict": true,
