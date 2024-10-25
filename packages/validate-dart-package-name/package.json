@@ -1,0 +1,54 @@
+{
+  "name": "validate-dart-package-name",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Check if a given string is a valid dart package name",
+  "keywords": [
+    "dart",
+    "package",
+    "name",
+    "validate",
+    "pub.dev"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "ntnyq",
+    "email": "ntnyq13@gmail.com"
+  },
+  "homepage": "https://github.com/ntnyq/dart-packages#readme",
+  "bugs": {
+    "url": "https://github.com/ntnyq/dart-packages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ntnyq/dart-packages",
+    "directory": "packages/validate-dart-package-name"
+  },
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "unbuild",
+    "dev": "unbuild --stub"
+  },
+  "dependencies": {
+    "dart-reserved-words": "workspace:*"
+  }
+}
