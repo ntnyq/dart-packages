@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest'
 import { RESERVED_WORD_LIST, validateDartPackageName } from 'validate-dart-package-name'
+import { describe, expect, it } from 'vitest'
 
 const validNames: string[] = ['foo', 'foo_bar', 'foo1', 'foo_bar1', 'foo_bar_1', 'foo_bar_baz']
 const invalidNames: string[] = [

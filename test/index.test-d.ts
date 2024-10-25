@@ -1,5 +1,5 @@
-import { assertType, describe, expectTypeOf, it } from 'vitest'
 import { validateDartPackageName } from 'validate-dart-package-name'
+import { assertType, describe, expectTypeOf, it } from 'vitest'
 
 describe('typecheck', () => {
   it('should return type match', () => {
