@@ -5,11 +5,11 @@
   "description": "Dart language reserved words list",
   "keywords": [
     "dart",
-    "package",
     "name",
+    "package",
     "pub.dev",
-    "reservedWords",
-    "reserved words"
+    "reserved words",
+    "reservedWords"
   ],
   "license": "MIT",
   "author": {
@@ -17,13 +17,13 @@
     "email": "ntnyq13@gmail.com"
   },
   "homepage": "https://github.com/ntnyq/dart-packages#readme",
-  "bugs": {
-    "url": "https://github.com/ntnyq/dart-packages/issues"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ntnyq/dart-packages",
     "directory": "packages/dart-reserved-words"
+  },
+  "bugs": {
+    "url": "https://github.com/ntnyq/dart-packages/issues"
   },
   "exports": {
     "./package.json": "./package.json",

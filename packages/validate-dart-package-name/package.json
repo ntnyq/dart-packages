@@ -5,10 +5,10 @@
   "description": "Check if a given string is a valid dart package name",
   "keywords": [
     "dart",
-    "package",
     "name",
-    "validate",
-    "pub.dev"
+    "package",
+    "pub.dev",
+    "validate"
   ],
   "license": "MIT",
   "author": {
@@ -16,13 +16,13 @@
     "email": "ntnyq13@gmail.com"
   },
   "homepage": "https://github.com/ntnyq/dart-packages#readme",
-  "bugs": {
-    "url": "https://github.com/ntnyq/dart-packages/issues"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ntnyq/dart-packages",
     "directory": "packages/validate-dart-package-name"
+  },
+  "bugs": {
+    "url": "https://github.com/ntnyq/dart-packages/issues"
   },
   "exports": {
     "./package.json": "./package.json",
