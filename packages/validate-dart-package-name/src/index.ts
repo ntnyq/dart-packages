@@ -3,7 +3,7 @@ import { reservedWords } from 'dart-reserved-words'
 /**
  * Check if a given string is a valid dart package name
  *
- * @param name package name
+ * @param name - package name
  * @returns true if the package name is valid
  *
  * @see {@link https://dart.dev/tools/pub/pubspec#name}
