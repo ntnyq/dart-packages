@@ -2,7 +2,7 @@
  * Dart reserved words
  * @see {@link https://dart.dev/language/keywords}
  */
-
+// @keep-sorted
 export const reservedWords = [
   'abstract',
   'as',
