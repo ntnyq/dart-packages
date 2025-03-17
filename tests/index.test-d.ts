@@ -8,7 +8,6 @@ describe('typecheck', () => {
 
   it('should params type match', () => {
     assertType<(name: string) => boolean>(validateDartPackageName)
-
-    expectTypeOf(validateDartPackageName).parameter(0).toBeString()
+    expectTypeOf(validateDartPackageName).parameters.toMatchTypeOf<[string]>()
   })
 })

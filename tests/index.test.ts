@@ -2,7 +2,14 @@ import { describe, expect, it } from 'vitest'
 import { reservedWords } from '../packages/dart-reserved-words/src'
 import { validateDartPackageName } from '../packages/validate-dart-package-name/src'
 
-const validNames: string[] = ['foo', 'foo_bar', 'foo1', 'foo_bar1', 'foo_bar_1', 'foo_bar_baz']
+const validNames: string[] = [
+  'foo',
+  'foo_bar',
+  'foo1',
+  'foo_bar1',
+  'foo_bar_1',
+  'foo_bar_baz',
+]
 const invalidNames: string[] = [
   'foo-bar',
   'FooBar',
@@ -13,13 +20,16 @@ const invalidNames: string[] = [
   '1-2-3',
   '_1_2',
   '_foo_bar',
-
+  'foo_bar_',
+  'foo__bar',
   ...reservedWords,
 ]
 
 describe('validateDartPackageName', () => {
   it('should throw when name is an empty string', () => {
-    expect(() => validateDartPackageName('')).toThrow('package name must be a non-empty string')
+    expect(() => validateDartPackageName('')).toThrow(
+      'package name must be a non-empty string',
+    )
   })
 
   it('all names are valid', () => {

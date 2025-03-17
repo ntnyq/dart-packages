@@ -19,7 +19,7 @@
   "homepage": "https://github.com/ntnyq/dart-packages#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ntnyq/dart-packages",
+    "url": "git+https://github.com/ntnyq/dart-packages",
     "directory": "packages/dart-reserved-words"
   },
   "bugs": {

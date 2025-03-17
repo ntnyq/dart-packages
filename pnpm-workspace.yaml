@@ -1,2 +1,6 @@
 packages:
   - packages/*
+overrides:
+  esbuild: ^0.25.1
+onlyBuiltDependencies:
+  - esbuild
