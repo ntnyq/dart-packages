@@ -1,5 +1,16 @@
 # validate-dart-package-name
 
+## 0.3.0
+
+### Minor Changes
+
+- [`0b18848`](https://github.com/ntnyq/dart-packages/commit/0b1884824cc95bcb4efe178f31e903d688780307) Thanks [@ntnyq](https://github.com/ntnyq)! - feat: check for ending and doublue underscore
+
+### Patch Changes
+
+- Updated dependencies [[`0b18848`](https://github.com/ntnyq/dart-packages/commit/0b1884824cc95bcb4efe178f31e903d688780307)]:
+  - dart-reserved-words@0.2.0
+
 ## 0.2.0
 
 ### Minor Changes
