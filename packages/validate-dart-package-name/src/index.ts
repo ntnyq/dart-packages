@@ -29,8 +29,3 @@ export function validateDartPackageName(name: string) {
   }
   return /^[a-z][\d_a-z]*$/.test(name)
 }
-
-/**
- * @deprecated use package [`dart-reserved-words`](https://npmjs.com/package/dart-reserved-words)
- */
-export const RESERVED_WORD_LIST = reservedWords
