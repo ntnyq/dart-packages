@@ -1,5 +1,18 @@
 # validate-dart-package-name
 
+## 0.4.0
+
+### Minor Changes
+
+- [`f532c02`](https://github.com/ntnyq/dart-packages/commit/f532c02a84e156556e474d053c03bb874bdaf649) Thanks [@ntnyq](https://github.com/ntnyq)! - feat: drop CJS build, it's ESM only now
+
+- [`4c42c09`](https://github.com/ntnyq/dart-packages/commit/4c42c094746ecb48252fe37a4b40e2664018c0a4) Thanks [@ntnyq](https://github.com/ntnyq)! - fix: cleanup deprecated constants
+
+### Patch Changes
+
+- Updated dependencies [[`f532c02`](https://github.com/ntnyq/dart-packages/commit/f532c02a84e156556e474d053c03bb874bdaf649)]:
+  - dart-reserved-words@0.3.0
+
 ## 0.3.0
 
 ### Minor Changes

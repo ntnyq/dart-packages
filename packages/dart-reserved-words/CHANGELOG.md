@@ -1,5 +1,11 @@
 # dart-reserved-words
 
+## 0.3.0
+
+### Minor Changes
+
+- [`f532c02`](https://github.com/ntnyq/dart-packages/commit/f532c02a84e156556e474d053c03bb874bdaf649) Thanks [@ntnyq](https://github.com/ntnyq)! - feat: drop CJS build, it's ESM only now
+
 ## 0.2.0
 
 ### Minor Changes
