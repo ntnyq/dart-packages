@@ -18,7 +18,7 @@
   "homepage": "https://github.com/ntnyq/dart-packages#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ntnyq/dart-packages",
+    "url": "git+https://github.com/ntnyq/dart-packages.git",
     "directory": "packages/validate-dart-package-name"
   },
   "bugs": {
@@ -27,19 +27,12 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "import": {
-        "types": "./dist/index.d.mts",
-        "default": "./dist/index.mjs"
-      },
-      "require": {
-        "types": "./dist/index.d.cts",
-        "default": "./dist/index.cjs"
-      }
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
     }
   },
   "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/index.d.mts",
   "files": [
     "dist"
   ],
