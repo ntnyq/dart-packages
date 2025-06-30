@@ -3,7 +3,6 @@
 > Some packages about dart language.
 
 [![CI](https://github.com/ntnyq/dart-packages/workflows/CI/badge.svg)](https://github.com/ntnyq/dart-packages/actions)
-[![CODECOV](https://codecov.io/github/ntnyq/dart-packages/branch/main/graph/badge.svg)](https://codecov.io/github/ntnyq/dart-packages)
 [![LICENSE](https://img.shields.io/github/license/ntnyq/dart-packages.svg)](https://github.com/ntnyq/dart-packages/blob/main/LICENSE)
 
 ## Packages
