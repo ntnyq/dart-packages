@@ -21,15 +21,15 @@
     "@changesets/cli": "^2.29.8",
     "@ntnyq/eslint-config": "^5.9.0",
     "@ntnyq/prettier-config": "^3.0.1",
-    "@types/node": "^24.10.7",
+    "@types/node": "^24.10.9",
     "eslint": "^9.39.2",
     "husky": "^9.1.7",
     "nano-staged": "^0.9.0",
     "npm-run-all2": "^8.0.4",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.0",
     "typescript": "^5.9.3",
     "unbuild": "^3.6.1",
-    "vitest": "^4.0.16"
+    "vitest": "^4.0.17"
   },
   "nano-staged": {
     "*.{js,ts,mjs,cjs,md,yml,yaml,json}": "eslint --fix"
