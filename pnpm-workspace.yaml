@@ -1,7 +1,7 @@
 packages:
   - packages/*
 overrides:
-  esbuild: ^0.25.5
+  esbuild: ^0.28.0
 onlyBuiltDependencies:
   - esbuild
   - unrs-resolver
