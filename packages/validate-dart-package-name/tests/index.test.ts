@@ -1,6 +1,6 @@
+import { reservedWords } from 'dart-reserved-words'
 import { describe, expect, it } from 'vitest'
-import { reservedWords } from '../packages/dart-reserved-words/src'
-import { validateDartPackageName } from '../packages/validate-dart-package-name/src'
+import { validateDartPackageName } from '../src'
 
 const validNames: string[] = [
   'foo',

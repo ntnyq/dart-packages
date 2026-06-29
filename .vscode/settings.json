@@ -22,11 +22,13 @@
     "javascriptreact",
     "typescriptreact"
   ],
+  "js/ts.experimental.useTsgo": true,
   "cSpell.words": [
     "CODECOV",
     "esbuild",
     "lcov",
     "pnpm",
+    "tsgo",
     "unrs",
     "vite",
     "vitest"
