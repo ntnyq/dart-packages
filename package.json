@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@11.21.0",
+  "packageManager": "pnpm@11.22.0",
   "license": "MIT",
   "scripts": {
     "build": "pnpm -r --stream build",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@changesets/changelog-github": "^0.7.0",
     "@changesets/cli": "^2.31.1",
-    "@ntnyq/eslint-config": "^7.0.0-beta.15",
+    "@ntnyq/eslint-config": "^7.0.0-beta.16",
     "@ntnyq/prettier-config": "^3.1.0",
     "@types/node": "^26.2.0",
     "@typescript/native-preview": "^7.0.0-dev.20260707.2",
