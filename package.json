@@ -14,7 +14,7 @@
     "release:check": "run-s build lint typecheck test",
     "release:publish": "changeset publish",
     "test": "vitest",
-    "typecheck": "tsgo --noEmit"
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.0",
@@ -22,14 +22,14 @@
     "@ntnyq/eslint-config": "^7.0.0-beta.18",
     "@ntnyq/prettier-config": "^3.1.0",
     "@types/node": "^26.4.0",
-    "@typescript/native-preview": "^7.0.0-dev.20260707.2",
+    "@typescript/native-preview": "npm:typescript@^7.0.2",
     "eslint": "^10.9.1",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
     "npm-run-all2": "^9.0.3",
     "prettier": "^3.9.6",
     "tsdown": "^0.22.14",
-    "typescript": "^7.0.2",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
     "vitest": "^5.0.0"
   },
   "nano-staged": {
