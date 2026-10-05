@@ -19,18 +19,18 @@
   "devDependencies": {
     "@changesets/changelog-github": "^1.0.1",
     "@changesets/cli": "^3.0.3",
-    "@ntnyq/eslint-config": "^7.0.0-beta.20",
+    "@ntnyq/eslint-config": "^7.0.0-beta.22",
     "@ntnyq/prettier-config": "^3.1.0",
-    "@types/node": "^26.6.1",
+    "@types/node": "^26.6.3",
     "@typescript/native-preview": "npm:typescript@^7.0.2",
-    "eslint": "^10.10.0",
+    "eslint": "^10.11.0",
     "husky": "^9.1.7",
     "nano-staged": "^1.0.2",
     "npm-run-all2": "^9.0.3",
-    "prettier": "^3.9.7",
+    "prettier": "^3.9.9",
     "tsdown": "^0.23.0",
     "typescript": "npm:@typescript/typescript6@^6.0.2",
-    "vitest": "^5.0.1"
+    "vitest": "^5.0.2"
   },
   "nano-staged": {
     "*.{js,ts,mjs,cjs,md,yml,yaml,json}": "eslint --fix"
