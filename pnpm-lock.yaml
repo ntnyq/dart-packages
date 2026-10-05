@@ -176,19 +176,19 @@ importers:
         specifier: ^3.0.3
         version: 3.0.3
       '@ntnyq/eslint-config':
-        specifier: ^7.0.0-beta.20
+        specifier: ^7.0.0-beta.22
         version: 7.0.0-beta.22(@typescript-eslint/eslint-plugin@8.68.0(@typescript-eslint/parser@8.71.0(@typescript/typescript6@6.0.2)(eslint@10.11.0(jiti@2.7.0)))(@typescript/typescript6@6.0.2)(eslint@10.11.0(jiti@2.7.0)))(@typescript-eslint/parser@8.71.0(@typescript/typescript6@6.0.2)(eslint@10.11.0(jiti@2.7.0)))(@typescript-eslint/typescript-estree@8.71.0(@typescript/typescript6@6.0.2))(@typescript-eslint/utils@8.71.0(@typescript/typescript6@6.0.2)(eslint@10.11.0(jiti@2.7.0)))(@typescript/typescript6@6.0.2)(@vue/compiler-sfc@3.5.39)(eslint@10.11.0(jiti@2.7.0))(oxfmt@0.71.0)(prettier@3.9.9)(vitest@5.0.3(@types/node@26.6.4)(vite@8.1.0(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.0)))
       '@ntnyq/prettier-config':
         specifier: ^3.1.0
         version: 3.1.0(prettier@3.9.9)
       '@types/node':
-        specifier: ^26.6.1
+        specifier: ^26.6.3
         version: 26.6.4
       '@typescript/native-preview':
         specifier: npm:typescript@^7.0.2
         version: typescript@7.0.2
       eslint:
-        specifier: ^10.10.0
+        specifier: ^10.11.0
         version: 10.11.0(jiti@2.7.0)
       husky:
         specifier: ^9.1.7
@@ -200,7 +200,7 @@ importers:
         specifier: ^9.0.3
         version: 9.0.3
       prettier:
-        specifier: ^3.9.7
+        specifier: ^3.9.9
         version: 3.9.9
       tsdown:
         specifier: ^0.23.0
@@ -209,7 +209,7 @@ importers:
         specifier: npm:@typescript/typescript6@^6.0.2
         version: '@typescript/typescript6@6.0.2'
       vitest:
-        specifier: ^5.0.1
+        specifier: ^5.0.2
         version: 5.0.3(@types/node@26.6.4)(vite@8.1.0(@types/node@26.6.4)(jiti@2.7.0)(yaml@2.9.0))
 
   packages/dart-reserved-words: {}
