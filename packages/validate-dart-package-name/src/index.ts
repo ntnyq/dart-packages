@@ -18,6 +18,7 @@ export function validateDartPackageName(name: string) {
   if (typeof name !== 'string' || name.length === 0) {
     throw new Error('package name must be a non-empty string')
   }
+
   if (
     reservedWords.includes(name)
     || name.endsWith('_')
@@ -25,5 +26,6 @@ export function validateDartPackageName(name: string) {
   ) {
     return false
   }
+
   return /^[a-z][\d_a-z]*$/.test(name)
 }
